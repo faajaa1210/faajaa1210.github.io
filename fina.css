@@ -1,26 +1,29 @@
 
 *{
   padding: 0;
+
   margin: 0;
   box-sizing: border-box;
 
   }
   body{
   background-image: url(https://i.pinimg.com/originals/39/1f/67/391f67cbc1abcbcae7f45cf237350330.jpg);
-  opacity: 0.8;
+  opacity: 3.8;
         }
 header{
   text-align: center;
   padding: 10px 20px;
   border: 5px double rgb(89, 84, 114);
   margin: 20px;
-  color: rgb(223, 184, 12);
-  background-color: black;
+
+  margin: auto;
+  box-sizing: border-box;
 }
 
 .menu {
   overflow: hidden;
   background-color: rgb(124, 27, 27);
+
   margin: 20px;
  }
   .menu a {
@@ -46,6 +49,22 @@ img{
   padding: 1px;
 }
 
+
+nav.menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu a:hover {
+  background-color: #ddd;
+  color: rgb(20, 19, 5);
+}
+
+
 tr {
   display: block;
   margin-left: 50%;
@@ -68,13 +87,19 @@ h3{
 p{
   padding: 10px;
   color: rgb(70, 44, 5);
-  font-size: 20px ;
+  color: rgb(216, 138, 20);
   margin: 10px;
   text-align: justify;
   text-decoration-style: solid;
-  text-size-adjust: 100px;
+  text-size-adjust: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 30px;
+  font-size: 20px;
+}
+.videos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 img{
@@ -96,6 +121,10 @@ iframe{
     opacity: 1;
     
   }
+    .videos {
+      width: 80%;
+      height: 250px;;
+  }
   
   img {
     display: block;
@@ -105,12 +134,7 @@ iframe{
     width: 90%;
     margin:10px;
   }
-  p {
-      font-size: 24px;
-    
-    }
-    
-  
+
     .container {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
